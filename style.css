@@ -1,0 +1,20 @@
+i{
+  background:#898fff;
+  padding:10px;
+ border-radius:50%;  
+}
+.pls{
+  text-align:center;
+}
+.pulse{
+  animation: pulsean 2s infinite;
+  box-shadow:0px 0px 1px 1px #0000001a;
+}
+@keyframes pulsean{
+  0%{
+    box-shadow:0 0 0 0px #1f4fbb;
+  }
+  100%{
+    box-shadow:0 0 0 20px #48ddff00;
+  }
+}
